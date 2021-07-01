@@ -13,6 +13,9 @@ namespace graal {
 /*! 
  * TODO: documentação no estilo doxygen
  */
+ /*
+ 80%, não precisava ser o(n^2), mas blz
+ */
 template<class ForwardIt>
 ForwardIt rotate(ForwardIt first, ForwardIt n_first, ForwardIt last)
 {

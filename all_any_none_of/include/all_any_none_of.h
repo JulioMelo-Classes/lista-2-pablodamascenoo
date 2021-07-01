@@ -13,6 +13,9 @@ namespace graal {
 /*! 
  * TODO: documentação no estilo doxygen
  */
+ /*
+ 80%, pois faltou a documentação
+ */
 template<class InputIt, class UnaryPredicate>
 bool all_of(InputIt first, InputIt last, UnaryPredicate p)
 {
@@ -21,7 +24,7 @@ bool all_of(InputIt first, InputIt last, UnaryPredicate p)
         return false;
     }
     do{
-        if(p(*first)==false){
+        if(p(*first)==false){ //aqui vc poderia fazer if(!p(*first))
             return false;
         }
         first++;

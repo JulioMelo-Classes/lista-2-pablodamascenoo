@@ -13,6 +13,9 @@ namespace graal {
 /*! 
  * TODO: documentação no estilo doxygen
  */
+ /*
+ 80%
+ */
 template<class InputIt>
 InputIt copy(InputIt first, InputIt last, InputIt d_first)
 {
@@ -20,7 +23,7 @@ InputIt copy(InputIt first, InputIt last, InputIt d_first)
         *d_first = *first;
         d_first++;
         first++;
-    }
+    }//?
     while(first!=last);
     return d_first;
 }

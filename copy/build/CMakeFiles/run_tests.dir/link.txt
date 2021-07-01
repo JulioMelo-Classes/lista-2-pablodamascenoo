@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall   CMakeFiles/run_tests.dir/mnt/c/Users/gabri/OneDrive/Área_de_Trabalho/LP1/lista-2-pablodamascenoo/test_manager/src/test_manager.cpp.o CMakeFiles/run_tests.dir/src/main.cpp.o  -o run_tests 
